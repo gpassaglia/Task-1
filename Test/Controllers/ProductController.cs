@@ -104,7 +104,7 @@ namespace Test.Controllers
             try
             {
                 _productService.RemoveAllProducts();
-                return Ok("Your all products has been deleted");
+                return Ok("All your products have been deleted");
             }
             catch (Exception ex)
             {
